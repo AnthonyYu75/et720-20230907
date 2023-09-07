@@ -17,7 +17,7 @@ import { NewComponent } from './new/new.component';
     BrowserModule,
     ReactiveFormsModule,
     RouterModule.forRoot([
-      { path: '', component: ProductListComponent },
+      { path: '', component: CategoriesComponent },
       { path: 'new', component: NewComponent },
     ]),
   ],
